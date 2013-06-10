@@ -1,3 +1,3 @@
 First working trial developing game using native C++ calls with cocos2dx to run it on Android phone. 
 Compiles fine in VS10 and can be run on the desktop. 
-Eclipse project included which should generate .apk file and can be run on android phone.
+Eclipse project included which should generate .apk file and can be run on android phone. 
