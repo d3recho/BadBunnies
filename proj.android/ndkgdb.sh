@@ -1,5 +1,5 @@
 APPNAME="badbunnies"
-APP_ANDROID_NAME="net.tidalsource"
+APP_ANDROID_NAME="net.tidalsource.badbunnies"
 
 if [ -z "${SDK_ROOT+aaa}" ]; then
 # ... if SDK_ROOT is not set, use "$HOME/bin/android-sdk"

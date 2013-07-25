@@ -46,7 +46,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>.;..\Classes;$(SolutionDir)cocos2dx;$(SolutionDir)cocos2dx\include;$(SolutionDir)cocos2dx\kazmath\include;$(SolutionDir)cocos2dx\platform\win32;$(SolutionDir)cocos2dx\platform\third_party\win32;$(SolutionDir)cocos2dx\platform\third_party\win32\OGLES;$(SolutionDir)CocosDenshion\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.;..\Classes;c:\cocos2d-2.1beta3-x-2.1.0\cocos2dx;c:\cocos2d-2.1beta3-x-2.1.0\cocos2dx\include;c:\cocos2d-2.1beta3-x-2.1.0\cocos2dx\kazmath\include;c:\cocos2d-2.1beta3-x-2.1.0\cocos2dx\platform\win32;c:\cocos2d-2.1beta3-x-2.1.0\cocos2dx\platform\third_party\win32;c:\cocos2d-2.1beta3-x-2.1.0\cocos2dx\platform\third_party\win32\OGLES;c:\cocos2d-2.1beta3-x-2.1.0\CocosDenshion\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PrecompiledHeader>
       </PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
@@ -67,7 +67,7 @@
     </Link>
     <ResourceCompile>
       <Culture>0x0409</Culture>
-      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(IntDir);c:\cocos2d-2.1beta3-x-2.1.0\cocos2dx\include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ResourceCompile>
     <Midl>
